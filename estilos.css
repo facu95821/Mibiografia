@@ -1,0 +1,66 @@
+*{
+    background-color: #0B0C10;
+    color: #66FCF1;
+    font-family: 'Bebas Neue';
+    text-align: center;
+}
+
+#imgPerfil{
+    border-radius: 10%;
+    border:solid 5px;
+    border-color: #66FCF1;
+    height: 400px;  
+}
+#imgGaleria{
+    border-radius: 5%;
+    border:solid 3px;
+    border-color: #66FCF1;
+    height: 300px;
+}
+
+#biografia{
+    font-size: 150%;
+    width: 85%;
+    text-align: center;
+    display: inline-block;
+}
+
+#biografia p{
+    font-size: 150%;
+    font-family: 'Changa';
+}
+
+.titulos{
+    font-size: 300%;
+}
+#intereses{
+    border-right:solid 10px #66FCF1;
+    border-left:solid 10px #66FCF1;
+}
+#familia{
+    border-right:solid 10px #66FCF1;
+    border-left:solid 10px #66FCF1;
+}
+#mascotas{
+    border-right:solid 10px #66FCF1;
+    border-left:solid 10px #66FCF1;
+}
+#intereses li{
+    font-size: 150%;
+    font-family: 'Changa';
+    display: inline-block;
+    padding: 3%;
+
+}
+#familia li{
+    font-size: 150%;
+    font-family: 'Changa';
+    display: inline-block;
+    padding: 3%;
+}
+
+.flexcontenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
